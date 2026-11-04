@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Angelov Realty Group | LISTINGS</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Browse available homes in Ocean City, Berlin, Salisbury, and surrounding areas. View high-quality property photos, features, and pricing with Angelov Realty Group.">
+  <meta name="keywords" content="homes for sale Coastal Maryland, Ocean City listings, Maryland real estate listings, property search Maryland, houses for sale Ocean City, Angelov Realty listings">
+  <meta name="author" content="Devon Tingle">
+  <meta name="copyright" content="© Angelov Realty Group">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <!-- Font & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="branding">
+    <a href="index.html" class="logo-link">
+      <span class="logo-mark">AR</span>
+      <span class="logo-text">Angelov Realty Group</span>
+    </a>
+  </div>
+
+  <!-- FIXED BUTTON ICON -->
+  <button class="nav-toggle" aria-label="Toggle navigation">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <form class="site-search" method="get" action="https://duckduckgo.com/">
+    <input type="hidden" name="sites" value="nova.umgc.edu">
+    <label for="search-query" class="visually-hidden">Search this site</label>
+    <input type="text" id="search-query" name="q" placeholder="Search homes, tips, areas...">
+    <button type="submit" aria-label="Search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+  </form>
+
+  <nav class="main-nav" aria-label="Primary navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="buyers.html">Buyers</a></li>
+      <li><a href="sellers.html">Sellers</a></li>
+      <li><a href="listings.html">Listings</a></li>
+      <li><a href="neighborhoods.html">Neighborhoods</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="section section-alt" aria-labelledby="listings-heading">
+    <h1 id="listings-heading">Listings</h1>
+    <h2>Below is a sample of properties represented in the Coastal Maryland area. </h2>
+    <p>For a customized search that reflects your price range and goals, contact us directly and we will build a search tailored to you.</p>
+  </section>
+
+  <section class="section" aria-label="Available homes">
+    <div class="listings-grid">
+
+      <!-- LISTING 1 -->
+      <article class="listing-card">
+        <h3 class="visually-hidden">Featured Listing – Ocean City Coastal Home</h3>
+        <a href="listing-detail.html">
+          <img src="images/listing-1.jpg" alt="Coastal-style home with white siding and a wide front porch.">
+        </a>
+        <div class="listing-body">
+          <p class="listing-price">$589,000 • Ocean City, MD</p>
+          <p class="listing-meta">3 beds • 2.5 baths • Short distance to the water</p>
+        </div>
+      </article>
+
+      <!-- LISTING 2 -->
+      <article class="listing-card">
+        <h3 class="visually-hidden">Featured Listing – Berlin Modern Condo</h3>
+        <a href="listing-detail2.html">
+          <img src="images/listing-2.jpg" alt="Modern condo interior with large windows and water views.">
+        </a>
+        <div class="listing-body">
+          <p class="listing-price">$425,000 • Berlin, MD</p>
+          <p class="listing-meta">2 beds • 2 baths • Open-concept kitchen and living area</p>
+        </div>
+      </article>
+
+      <!-- LISTING 3 -->
+      <article class="listing-card">
+        <h3 class="visually-hidden">Featured Listing – Salisbury Single-Family Home</h3>
+        <a href="listing-detail3.html">
+          <img src="images/listing-3.jpg" alt="Single-family home with attached garage and green lawn.">
+        </a>
+        <div class="listing-body">
+          <p class="listing-price">$349,000 • Salisbury, MD</p>
+          <p class="listing-meta">4 beds • 2 baths • Fenced yard and flexible floor plan</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-main">
+    <p>© <span id="current-year"></span> Angelov Realty Group. All rights reserved.</p>
+
+    <p>
+      <i class="fa-solid fa-location-dot"></i>
+      Coastal Maryland • Ocean City, Berlin &amp; surrounding areas
+    </p>
+
+    <p>
+      <i class="fa-solid fa-phone"></i>
+      <a href="tel:+14445550123">(444) 555-0123</a>
+      &nbsp;|&nbsp;
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:info@angelovrealtygroup.com">info@angelovrealtygroup.com</a>
+    </p>
+
+    <p class="footer-links">
+      <a href="privacy.html">Privacy Policy -</a>
+      <a href="resources.html">Resources - </a>
+      <a href="testimonials.html">Testimonials</a>
+    </p>
+  </div>
+
+  <div class="footer-meta">
+    <p>Current date &amp; time: <span id="date-time"></span></p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
